@@ -1,0 +1,54 @@
+.aboutsweet {
+  width: 100%;
+  background-image: url("../../../assets/YellowBackgroundimg.svg");
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  transform-origin: rotate(3.3deg);
+}
+
+.aboutsweet-main {
+  display: flex;
+}
+
+.aboutsweet-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.aboutsweet-left h3 {
+  text-align: left;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.aboutsweet-left .shape {
+  display: flex;
+  width: 56px;
+  margin-left: 65%;
+}
+
+.aboutsweet-left .pastrybag {
+  width: 56px;
+}
+
+.aboutsweet-left .combinedshape {
+  width: 34.22px;
+  margin-left: 30%;
+}
+
+.aboutsweet-right {
+  width: 50%;
+  margin-top: -8%;
+}
+
+.aboutsweet-right .meringue {
+  width: 56px;
+  margin-bottom: 12%;
+  margin-left: 35%;
+}
+
+.aboutsweet-right p {
+  padding-right: 10%;
+}
