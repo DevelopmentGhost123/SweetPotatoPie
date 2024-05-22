@@ -1,6 +1,6 @@
 .whatwedo {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   border: 1px solid red;
 }
@@ -8,12 +8,45 @@
 .css-style-sample {
   width: 684px;
   height: 428.41px;
+  border: 1px solid;
+  border-radius: 5px;
 }
 
 .css-style-titlebar {
+  display: flex;
   margin: 0;
   height: 44.74px;
   border: 1px solid;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.circle-repeat {
+  display: flex;
+}
+
+.circle-sample {
+  margin: auto;
+  margin-left: 15px;
+  width: 13.98px;
+  height: 13.98px;
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: #fceeb4;
+}
+
+.round-rectangle-repeat {
+  display: flex;
+}
+
+.round-rectangle-sample {
+  margin: auto;
+  margin-right: 15px;
+  width: 55.93px;
+  height: 13.98px;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: #fceeb4;
 }
 
 .css-style-main {
@@ -24,10 +57,21 @@
   border: 1px solid;
 }
 
+.css-main-textarea {
+  width: 604px;
+  height: 351px;
+  margin: auto;
+  padding-top: 20px;
+}
+
 .whatwedo-second-right {
-  margin-left: 40px;
-  align-items: left;
-  justify-content: left;
+  justify-content: center;
+  margin-right: 25%;
+}
+
+.second-right-textarea {
+  margin-right: 0%;
+  text-decoration: underline;
 }
 
 .seeall {
@@ -36,9 +80,8 @@
   align-items: center;
 }
 
-.round-rectangle {
-  width: 176px;
-  height: 57px;
-  border: 2px solid;
-  border-radius: 171px;
+.seeall-image {
+  width: 249px;
+  height: auto;
+  margin-right: -100%;
 }

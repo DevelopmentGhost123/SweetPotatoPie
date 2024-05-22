@@ -1,14 +1,14 @@
-import Group940 from "../../../assets/Group 940.svg";
+import Group2 from "../../../assets/Group2.svg";
 import Group1 from "../../../assets/Group 1.svg";
 import Underline04 from "../../../assets/Underline_04.svg";
-import Group941 from "../../../assets/Group 941.svg";
+import Group3 from "../../../assets/Group3.svg";
 import "./style.css";
 
 export function Welcome() {
   return (
     <div className="welcome">
       <div className="welcome_left">
-        {Group940 && <img src={Group940} alt="Group940" />}
+        {Group2 && <img src={Group2} alt="Group2" />}
       </div>
 
       <div className="welcome_middle">
@@ -30,7 +30,7 @@ export function Welcome() {
         </p>
       </div>
       <div className="welcome_right">
-        {Group941 && <img src={Group941} alt="Group941" />}
+        {Group3 && <img src={Group3} alt="Group3" />}
       </div>
     </div>
   );
