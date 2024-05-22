@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: #431a0e;
+  top: 0;
+  left: 0;
+  font-weight: 400;
+}
+
+.header-right {
+  display: flex;
+  gap: 20px;
+}

@@ -1,0 +1,44 @@
+.whatwedo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.css-style-sample {
+  width: 684px;
+  height: 428.41px;
+}
+
+.css-style-titlebar {
+  margin: 0;
+  height: 44.74px;
+  border: 1px solid;
+}
+
+.css-style-main {
+  width: 684px;
+  height: 384.78px;
+  background-color: #4e1a0e;
+  margin: 0;
+  border: 1px solid;
+}
+
+.whatwedo-second-right {
+  margin-left: 40px;
+  align-items: left;
+  justify-content: left;
+}
+
+.seeall {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.round-rectangle {
+  width: 176px;
+  height: 57px;
+  border: 2px solid;
+  border-radius: 171px;
+}
