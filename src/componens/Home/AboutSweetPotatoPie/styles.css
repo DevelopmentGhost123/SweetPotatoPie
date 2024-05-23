@@ -2,9 +2,9 @@
   width: 100%;
   background-image: url("../../../assets/YellowBackgroundimg.svg");
   background-size: cover;
+  background-repeat: round;
   align-items: center;
   justify-content: center;
-  transform-origin: rotate(3.3deg);
 }
 
 .aboutsweet-main {

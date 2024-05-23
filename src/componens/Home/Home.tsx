@@ -6,12 +6,14 @@ import OurPartnerships from "./OurPartnerships/OurPartnerships";
 import WorkWithUs from "./WorkWithUs/WorkWithUs";
 export function Home() {
   return (
-    <Router>
-      <Welcome />
-      <Whatwedo />
-      <AboutSweetPotatoPie />
-      <OurPartnerships />
-      <WorkWithUs />
-    </Router>
+    <div id="home">
+      <Router>
+        <Welcome />
+        <Whatwedo />
+        <AboutSweetPotatoPie />
+        <OurPartnerships />
+        <WorkWithUs />
+      </Router>
+    </div>
   );
 }

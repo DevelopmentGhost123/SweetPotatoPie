@@ -9,7 +9,32 @@
   font-weight: 400;
 }
 
+.header h4 {
+  text-align: center;
+  cursor: pointer;
+}
+
 .header-right {
   display: flex;
   gap: 20px;
+}
+
+.header-right p {
+  text-align: center;
+  cursor: pointer;
+}
+
+.header-right p:hover {
+  color: lightgreen;
+}
+
+.active-link {
+  color: red;
+}
+
+.stickey {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
 }
