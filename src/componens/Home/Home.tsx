@@ -3,6 +3,7 @@ import { Welcome } from "./Welcome/Welcome";
 import { Whatwedo } from "./Whatwedo/Whatwedo";
 import { AboutSweetPotatoPie } from "./AboutSweetPotatoPie/AboutSweetPotatoPie";
 import OurPartnerships from "./OurPartnerships/OurPartnerships";
+import WorkWithUs from "./WorkWithUs/WorkWithUs";
 export function Home() {
   return (
     <Router>
@@ -10,6 +11,7 @@ export function Home() {
       <Whatwedo />
       <AboutSweetPotatoPie />
       <OurPartnerships />
+      <WorkWithUs />
     </Router>
   );
 }
