@@ -1,3 +1,4 @@
+import CardTopStraightCircle from "../../../Shared/CardTopStraightCircle/CardTopStraightCircle";
 import VistSite from "../../../Shared/VisitSite/VisitSite";
 import Group7 from "../../../assets/Group7.svg";
 import "./styles.css";
@@ -7,10 +8,7 @@ const Realm = () => {
     <div className="realm">
       <div className="realm-left">
         <div className="straight-circle-cardarea">
-          <div className="card-top-straight-circle">
-            <div className="straight-line"></div>
-            <div className="black-circle"></div>
-          </div>
+          <CardTopStraightCircle />
           {Group7 && <img src={Group7} alt="Group7" />}
         </div>
       </div>
