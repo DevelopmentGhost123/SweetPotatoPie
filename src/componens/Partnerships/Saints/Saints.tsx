@@ -1,3 +1,4 @@
+import CardTopCircleRectangle from "../../../Shared/CardTopCircleRectangle/CardTopCircleRectangle";
 import VistSite from "../../../Shared/VisitSite/VisitSite";
 import ImagePlaceholder from "../../../assets/Image placeholder.svg";
 import "./styles.css";
@@ -26,17 +27,7 @@ const Saints = () => {
       </div>
       <div className="saints-right">
         <div className="circle-rectangle-cardarea">
-          <div className="card-top-circle-rectangle">
-            <div className="yellowcircle-container">
-              {[0, 1, 2].map((index) => (
-                <div key={index} className="yellowcircle"></div>
-              ))}
-            </div>
-            <div className="yellowrectangle-container"></div>
-            {[0, 1, 2].map((index) => (
-              <div key={index} className="yellowrectangle"></div>
-            ))}
-          </div>
+          <CardTopCircleRectangle />
           {ImagePlaceholder && <img src={ImagePlaceholder} alt="Image" />}
         </div>
       </div>

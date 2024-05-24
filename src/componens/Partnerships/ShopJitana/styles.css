@@ -1,0 +1,13 @@
+.shop-jitana {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.shop-jitana .circle-rectangle-cardarea img {
+  width: 100%;
+  margin-bottom: 15%;
+  border: 1px solid #4e1a0e;
+}

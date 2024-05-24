@@ -1,0 +1,42 @@
+.card-top-circle-rectangle {
+  width: 100%;
+  aspect-ratio: 15;
+  background-color: #ffffff;
+  border: 1px solid #4e1a0e;
+  display: flex;
+  align-items: center;
+}
+
+.yellowcircle-container {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.yellowcircle {
+  height: 25%;
+  aspect-ratio: 1;
+  background-color: #fceeb4;
+  border-radius: 50%;
+  border: 1px solid #4e1a0e;
+  margin-left: 10%;
+}
+
+.yellowrectangle-container {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: around;
+  align-items: center;
+}
+
+.yellowrectangle {
+  height: 25%;
+  aspect-ratio: 3;
+  border-radius: 15%;
+  background-color: #fceeb4;
+  margin-left: 0%;
+  margin-right: 3%;
+  border: 1px solid #4e1a0e;
+}
