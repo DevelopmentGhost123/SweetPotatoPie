@@ -4,6 +4,8 @@ import Realm from "./Realm/Realm";
 import Saints from "./Saints/Saints";
 import ShopJitana from "./ShopJitana/ShopJitana";
 import GTHX from "./GTHX/GTHX";
+import Blebrity from "./Blebrity/Blebrity";
+import WorkWithUs from "../Home/WorkWithUs/WorkWithUs";
 const Partnerships = () => {
   return (
     <div id="partnerships">
@@ -13,6 +15,8 @@ const Partnerships = () => {
         <Saints />
         <ShopJitana />
         <GTHX />
+        <Blebrity />
+        <WorkWithUs />
       </Router>
     </div>
   );
