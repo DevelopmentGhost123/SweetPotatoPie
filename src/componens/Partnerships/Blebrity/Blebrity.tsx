@@ -1,7 +1,6 @@
 import CardTopStraightCircle from "../../../Shared/CardTopStraightCircle/CardTopStraightCircle";
 import VistSite from "../../../Shared/VisitSite/VisitSite";
 import BlebrityPic from "../../../assets/BlebrityPic.svg";
-import "./styles.css";
 
 const Blebrity = () => {
   return (

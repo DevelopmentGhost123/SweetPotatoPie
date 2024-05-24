@@ -1,0 +1,43 @@
+.culture-beyond {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.picturearea {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.picturearea .ellipse {
+  width: 5%;
+  position: relative;
+  margin-right: 3%;
+}
+
+.picturearea .browncheese {
+  width: 5%;
+  position: absolute;
+  margin-right: 1.5%;
+  margin-top: -1%;
+}
+
+.beyond-picture-area {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.beyond-picture-left {
+  width: 25%;
+}
+
+.beyond-picture-middle {
+  width: 40%;
+}
+
+.beyond-picture-right {
+  width: 25%;
+}

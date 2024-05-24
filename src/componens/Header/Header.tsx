@@ -32,8 +32,13 @@ export function Header() {
         >
           partnerships
         </p>
+        <p
+          className={`p1 ${activeLink === "about" ? "active-link" : ""}`}
+          onClick={() => handleSetActiveLink("about")}
+        >
+          about
+        </p>
 
-        <p>about</p>
         <p>contact</p>
       </div>
     </div>
