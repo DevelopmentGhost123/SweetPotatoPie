@@ -1,17 +1,13 @@
-import "./styles.css";
-
+import { BrowserRouter as Router } from "react-router-dom";
+import ShapeFuture from "./ShapeFuture/ShapeFuture";
+import Realm from "./Realm/Realm";
 const Partnerships = () => {
   return (
-    <div className="shape-future" id="partnerships">
-      <div className="shape-future-left">
-        <div className="our-partnerships">
-          <h4>Our partnerships</h4>
-        </div>
-        <div>
-          <h1>Let's shape the future together</h1>
-        </div>
-      </div>
-      <div className="shape-future-right"></div>
+    <div id="partnerships">
+      <Router>
+        <ShapeFuture />
+        <Realm />
+      </Router>
     </div>
   );
 };

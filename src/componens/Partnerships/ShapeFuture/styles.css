@@ -1,0 +1,44 @@
+.shape-future {
+  width: 100%;
+  display: flex;
+  margin-top: 5%;
+}
+
+.shape-future-left {
+  width: 80%;
+}
+
+.our-partnerships {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.our-partnerships img {
+  margin-bottom: -4%;
+  margin-right: 17%;
+  width: 99.37px;
+  height: 60.75px;
+  margin-top: 14%;
+}
+
+.future-together {
+  width: 100%;
+  height: auto;
+}
+
+.underline06 {
+  display: flex;
+  justify-content: right;
+}
+
+.underline06 img {
+  width: 278px;
+  height: auto;
+  margin-top: -3%;
+  margin-right: 20%;
+}
+
+.shape-future-right {
+  width: 20%;
+}
