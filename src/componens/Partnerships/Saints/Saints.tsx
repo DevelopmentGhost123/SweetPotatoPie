@@ -25,8 +25,8 @@ const Saints = () => {
         <VistSite />
       </div>
       <div className="saints-right">
-        <div className="titlebar-card title-bar-margin-left">
-          <div className="titlebar-card-top title-bar-space-between">
+        <div className="circle-rectangle-cardarea">
+          <div className="card-top-circle-rectangle">
             <div className="yellowcircle-container">
               {[0, 1, 2].map((index) => (
                 <div key={index} className="yellowcircle"></div>

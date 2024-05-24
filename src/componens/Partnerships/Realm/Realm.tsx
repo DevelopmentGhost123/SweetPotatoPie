@@ -6,8 +6,8 @@ const Realm = () => {
   return (
     <div className="realm">
       <div className="realm-left">
-        <div className="titlebar-card">
-          <div className="titlebar-card-top">
+        <div className="straight-circle-cardarea">
+          <div className="card-top-straight-circle">
             <div className="straight-line"></div>
             <div className="black-circle"></div>
           </div>
