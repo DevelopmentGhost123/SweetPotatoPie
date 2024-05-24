@@ -1,0 +1,9 @@
+.visit-site-area {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.visit-site-area img {
+  margin-left: 5%;
+  margin-right: -20%;
+}

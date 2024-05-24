@@ -1,3 +1,4 @@
+import VistSite from "../../../Shared/VisitSite/VisitSite";
 import Group7 from "../../../assets/Group7.svg";
 import "./styles.css";
 
@@ -30,6 +31,7 @@ const Realm = () => {
           Native and Firebase, we've empowered Realm to stand out in the
           competitive music industry landscape.{" "}
         </p>
+        <VistSite />
       </div>
     </div>
   );

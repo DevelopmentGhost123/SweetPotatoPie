@@ -1,0 +1,68 @@
+.saints {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.saints-left {
+  width: 60%;
+  padding-right: 13%;
+}
+
+.saints-right {
+  width: 40%;
+  height: auto;
+  background-color: #29abca;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.saints-right img {
+  margin-bottom: 15%;
+}
+
+.title-bar-margin-left {
+  margin-left: -5%;
+}
+
+.title-bar-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.yellowcircle-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yellowcircle {
+  height: 25%;
+  aspect-ratio: 1;
+  background-color: #fceeb4;
+  border-radius: 50%;
+  border: 1px solid #4e1a0e;
+}
+
+.yellowrectangle-container {
+  height: 100%;
+  display: flex;
+  justify-content: around;
+  align-items: center;
+}
+
+.yellowrectangle {
+  height: 25%;
+  aspect-ratio: 3;
+  border-radius: 15%;
+  background-color: #fceeb4;
+  margin-left: 0%;
+  margin-right: 0%;
+  border: 1px solid #4e1a0e;
+}
