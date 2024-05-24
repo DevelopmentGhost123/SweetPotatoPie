@@ -1,0 +1,27 @@
+.flag-ship {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.flag-ship-left {
+  width: 60%;
+  padding-right: 13%;
+}
+
+.flag-ship-right {
+  width: 40%;
+  background-color: #fceeb4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 4%;
+}
+
+.flag-ship-right img {
+  width: 100%;
+  margin-bottom: 15%;
+  border: 1px solid #4e1a0e;
+}

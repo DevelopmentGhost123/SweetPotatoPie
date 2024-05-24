@@ -1,0 +1,68 @@
+.why-choose-sweet {
+  width: 100%;
+  padding-left: 20%;
+}
+
+.why-choose-sweet-title {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.why-choose-sweet-pic {
+  width: 3%;
+  display: flex;
+  justify-content: center;
+  margin-top: -8%;
+  margin-right: 2%;
+}
+
+.why-choose-sweet-pic img {
+  width: 100%;
+}
+
+.world-light-area {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.world-light-area img {
+  width: 3%;
+  margin-right: 2%;
+}
+.compass-light-area {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.compass-light-area img {
+  width: 3%;
+  margin-right: 2%;
+}
+.message-light-area {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.message-light-area img {
+  width: 3%;
+  margin-right: 2%;
+}
+.happy-light-area {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.happy-light-area img {
+  width: 3%;
+  margin-right: 2%;
+}
