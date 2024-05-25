@@ -1,6 +1,5 @@
 .why-choose-sweet {
   width: 100%;
-  padding-left: 20%;
 }
 
 .why-choose-sweet-title {
@@ -8,6 +7,14 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+.why-choose-sweet h4 {
+  padding-left: 20%;
+}
+
+.why-choose-sweet img {
+  padding-left: 20%;
 }
 
 .why-choose-sweet-pic {

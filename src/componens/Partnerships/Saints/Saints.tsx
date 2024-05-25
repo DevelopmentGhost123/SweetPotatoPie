@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import CardTopCircleRectangle from "../../../Shared/CardTopCircleRectangle/CardTopCircleRectangle";
 import VistSite from "../../../Shared/VisitSite/VisitSite";
 import ImagePlaceholder from "../../../assets/Image placeholder.svg";
@@ -23,7 +24,9 @@ const Saints = () => {
           like ReactJS and Gatsby, we've equipped Saints in Los Angeles to
           dominate the e-commerce landscape.
         </p>
-        <VistSite />
+        <Link to="https://saintsinlosangeles.com/">
+          <VistSite />
+        </Link>
       </div>
       <div className="saints-right">
         <div className="circle-rectangle-cardarea">

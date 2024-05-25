@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import CardTopStraightCircle from "../../../Shared/CardTopStraightCircle/CardTopStraightCircle";
 import VistSite from "../../../Shared/VisitSite/VisitSite";
 import BlebrityPic from "../../../assets/BlebrityPic.svg";
@@ -28,7 +29,9 @@ const Blebrity = () => {
           stand out in the competitive landscape and captivate their audience
           with compelling digital experiences.
         </p>
-        <VistSite />
+        <Link to="https://www.blebrity.com/">
+          <VistSite />
+        </Link>
       </div>
     </div>
   );

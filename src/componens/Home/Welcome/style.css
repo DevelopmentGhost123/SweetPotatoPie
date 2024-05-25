@@ -1,53 +1,73 @@
 .welcome {
+  width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
-  height: 404.61px;
 }
 
 .welcome_left {
-  width: 215px;
+  width: 30%;
   height: auto;
-  margin-right: 15%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.welcome_left img {
+  width: 60%;
+  margin-top: -15%;
 }
 
 .welcome_middle {
   text-align: center;
-  width: 645px;
-  height: 305px;
+  width: 50%;
+  height: auto;
   padding: 0;
   margin: 0;
 }
 
+.welcome_middle h2 {
+  margin-bottom: 0;
+}
+
+.welcome_bottom {
+  width: 100%;
+}
+
+.welcome_bottom_picarea {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+}
+
 .underline04 {
-  margin-right: 20px;
+  width: 30%;
+  margin-left: -5%;
 }
 
 .underline04 img {
-  width: 237px;
+  width: 100%;
   height: auto;
 }
 
 .group1 {
-  margin-left: 205px;
+  width: 20%;
 }
 
 .group1 img {
-  width: 125px;
+  width: 100%;
   height: auto;
-}
-
-.welcome_bottom {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: -70px;
-  margin-bottom: -35px;
 }
 
 .welcome_right {
-  width: 199.89px;
+  width: 20%;
   height: auto;
-  margin-left: 15%;
+  margin-left: 5%;
+}
+
+.welcome_right img {
+  width: 80%;
+  margin: 0;
 }

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import CardTopStraightCircle from "../../../Shared/CardTopStraightCircle/CardTopStraightCircle";
 import VistSite from "../../../Shared/VisitSite/VisitSite";
 import Group7 from "../../../assets/Group7.svg";
@@ -29,7 +30,9 @@ const Realm = () => {
           Native and Firebase, we've empowered Realm to stand out in the
           competitive music industry landscape.{" "}
         </p>
-        <VistSite />
+        <Link to="https://www.realmwrld.com/">
+          <VistSite />
+        </Link>
       </div>
     </div>
   );

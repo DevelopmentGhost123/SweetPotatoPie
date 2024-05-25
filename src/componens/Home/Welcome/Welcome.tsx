@@ -17,17 +17,20 @@ export function Welcome() {
           Sweet Potato Pie
         </h2>
         <div className="welcome_bottom">
-          <div className="underline04">
-            {Underline04 && <img src={Underline04} alt="Underline04" />}
+          <div className="welcome_bottom_picarea">
+            <div className="underline04">
+              {Underline04 && <img src={Underline04} alt="Underline04" />}
+            </div>
+            <div className="group1">
+              {Group1 && <img src={Group1} alt="Group1" />}
+            </div>
           </div>
-          <div className="group1">
-            {Group1 && <img src={Group1} alt="Group1" />}
-          </div>
+
+          <p className="p1">
+            We're digital venture studio that builds innovative <br />
+            companies focusing on culture beyond borders.
+          </p>
         </div>
-        <p className="p1">
-          We're digital venture studio that builds innovative <br />
-          companies focusing on culture beyond borders.
-        </p>
       </div>
       <div className="welcome_right">
         {Group3 && <img src={Group3} alt="Group3" />}

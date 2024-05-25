@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import CardTopCircleRectangle from "../../../Shared/CardTopCircleRectangle/CardTopCircleRectangle";
 import VistSite from "../../../Shared/VisitSite/VisitSite";
 import ImagePlaceHolder1 from "../../../assets/Image placeholder1.svg";
@@ -7,6 +8,7 @@ const ShopJitana = () => {
   return (
     <div className="shop-jitana">
       <div className="realm-left">
+        <div className="shop-jitana-card-container"></div>
         <div className="circle-rectangle-cardarea">
           <CardTopCircleRectangle />
           {ImagePlaceHolder1 && <img src={ImagePlaceHolder1} alt="Image" />}
@@ -29,7 +31,9 @@ const ShopJitana = () => {
           technologies like ReactJS and Gatsby, we've equipped Shop Jitana to
           thrive in the bustling ecommerce realm.
         </p>
-        <VistSite />
+        <Link to="https://shopjitana.com/">
+          <VistSite />
+        </Link>
       </div>
     </div>
   );

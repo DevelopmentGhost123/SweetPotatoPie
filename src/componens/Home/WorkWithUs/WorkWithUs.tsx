@@ -3,6 +3,7 @@ import github from "../../../assets/github.svg";
 import likedin from "../../../assets/linkedin.svg";
 import Sendlight from "../../../assets/Send_light.svg";
 import Group6 from "../../../assets/Group6.svg";
+import { Link } from "react-router-dom";
 import "./styles.css";
 
 const WorkWithUs = () => {
@@ -21,11 +22,16 @@ const WorkWithUs = () => {
         <div className="contact-with-us-left">
           <div>
             <p className="p1">Check our works</p>
-            <img src={github} alt="github" />
+            <Link to="https://github.com/Steddyrockin">
+              <img src={github} alt="github" />
+            </Link>
           </div>
+
           <div>
             <p className="p1">Check us on</p>
-            <img src={likedin} alt="likedin" />
+            <Link to="https://www.linkedin.com/company/sweet-potato-pie-ventures/">
+              <img src={likedin} alt="likedin" />
+            </Link>
           </div>
           <div>
             <p className="p1">Say hi</p>

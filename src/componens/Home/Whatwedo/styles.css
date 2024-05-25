@@ -1,87 +1,98 @@
 .whatwedo {
+  width: 100%;
+  height: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid red;
+}
+
+.whatwedo-left {
+  width: 55%;
 }
 
 .css-style-sample {
-  width: 684px;
-  height: 428.41px;
+  width: 100%;
+  height: auto;
   border: 1px solid;
   border-radius: 5px;
 }
 
 .css-style-titlebar {
   display: flex;
-  margin: 0;
-  height: 44.74px;
+  width: 100%;
+  aspect-ratio: 15;
   border: 1px solid;
   align-items: center;
   justify-content: space-between;
-}
-
-.circle-repeat {
-  display: flex;
-}
-
-.circle-sample {
-  margin: auto;
-  margin-left: 15px;
-  width: 13.98px;
-  height: 13.98px;
-  border: 1px solid;
-  border-radius: 50%;
-  background-color: #fceeb4;
-}
-
-.round-rectangle-repeat {
-  display: flex;
-}
-
-.round-rectangle-sample {
-  margin: auto;
-  margin-right: 15px;
-  width: 55.93px;
-  height: 13.98px;
-  border: 1px solid;
-  border-radius: 5px;
-  background-color: #fceeb4;
 }
 
 .css-style-main {
-  width: 684px;
-  height: 384.78px;
+  width: 100%;
   background-color: #4e1a0e;
   margin: 0;
   border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .css-main-textarea {
-  width: 604px;
-  height: 351px;
-  margin: auto;
-  padding-top: 20px;
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.css-main-textarea p {
+  margin: 0;
+}
+
+.red-color {
+  color: #c0723f;
+}
+
+/* .white-color {
+  color: #ffffff;
+} */
+
+.blue-color {
+  color: #29abca;
 }
 
 .whatwedo-second-right {
-  justify-content: center;
-  margin-right: 25%;
+  width: 45%;
 }
 
 .second-right-textarea {
-  margin-right: 0%;
+  width: 100%;
   text-decoration: underline;
 }
 
+.second-right-textarea h4 {
+  padding-left: 5%;
+}
+
 .seeall {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.seeall-textarea {
+  width: 20%;
+  padding-left: 5%;
+}
+
 .seeall-image {
-  width: 249px;
+  width: 50%;
   height: auto;
-  margin-right: -100%;
+}
+
+.seeall-image img {
+  width: 80%;
+  height: auto;
 }

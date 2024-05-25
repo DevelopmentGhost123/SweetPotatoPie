@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import CardTopStraightCircle from "../../../Shared/CardTopStraightCircle/CardTopStraightCircle";
 import VistSite from "../../../Shared/VisitSite/VisitSite";
 import Rectangle7 from "../../../assets/Rectangle7.svg";
@@ -24,7 +25,9 @@ const GTHX = () => {
           empowered GTHX to differentiate itself in the market and deliver
           exceptional value to its users.
         </p>
-        <VistSite />
+        <Link to="https://apps.apple.com/us/app/gthx-gratitude/id1304741675">
+          <VistSite />
+        </Link>
       </div>
       <div className="gthx-right">
         <div className="straight-circle-cardarea">
