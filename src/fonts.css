@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Vulf Sans Demo";
+  src: url("/public/Fonts/vulfmonodemo-regular.otf"),
+    url("/public/Fonts/VulfSansDemo-Regular.otf");
+
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Vulf Sans Demo", sans-serif;
+}

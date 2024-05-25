@@ -1,7 +1,4 @@
 :root {
-  font-family: Vulf Sans Demo, DM Mono;
-  font-weight: 400;
-
   color-scheme: light dark;
   color: #4e1a0e;
   background-color: #ffffff;
@@ -35,7 +32,6 @@ h1 {
 h2 {
   font-size: 64px;
   line-height: 93.5px;
-  font-family: ;
 }
 
 h3 {
