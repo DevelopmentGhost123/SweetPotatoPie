@@ -15,16 +15,16 @@ const ShopJitana = () => {
         </div>
       </div>
       <div className="realm-right">
-        <p className="p2">Product Strategy & Engineering</p>
-        <h4>Shop Jitana</h4>
-        <p className="p2">
+        <p className="p3">Product Strategy & Engineering</p>
+        <p className="lgh4">Shop Jitana</p>
+        <p className="p3">
           Shop Jitana tapped Sweet Potato Pie to transform their digital
           landscape. Working hand in hand with their marketing and technical
           teams, we took on the challenge of designing, building, and refining
           their marketing platform. This involved orchestrating a recent
           overhaul, including a vibrant brand rollout and a fresh redesign.
         </p>
-        <p className="p2">
+        <p className="p3">
           With a sharp focus on enhancing user experience and maximizing
           conversions, we crafted a growth strategy rooted in top-notch UX, CRO,
           and frontend development principles. Armed with leading-edge

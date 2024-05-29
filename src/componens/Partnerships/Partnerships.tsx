@@ -6,9 +6,11 @@ import ShopJitana from "./ShopJitana/ShopJitana";
 import GTHX from "./GTHX/GTHX";
 import Blebrity from "./Blebrity/Blebrity";
 import WorkWithUs from "../Home/WorkWithUs/WorkWithUs";
+import "./styles.css";
+
 const Partnerships = () => {
   return (
-    <div id="partnerships">
+    <div id="partnerships" className="partnerships-area">
       <Router>
         <ShapeFuture />
         <Realm />

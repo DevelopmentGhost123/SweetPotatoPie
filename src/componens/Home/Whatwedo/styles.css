@@ -1,3 +1,9 @@
+.what-we-do-area {
+  width: 100%;
+  height: auto;
+  margin-top: 10%;
+}
+
 .whatwedo {
   width: 100%;
   height: auto;
@@ -71,8 +77,12 @@
   text-decoration: underline;
 }
 
-.second-right-textarea h4 {
+.second-right-textarea .lgh4 {
   padding-left: 5%;
+}
+
+.lgh4-last-bottom-margin {
+  margin-bottom: 15%;
 }
 
 .seeall {
@@ -90,6 +100,7 @@
 .seeall-image {
   width: 50%;
   height: auto;
+  margin-right: -8%;
 }
 
 .seeall-image img {

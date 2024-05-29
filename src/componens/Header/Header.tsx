@@ -17,12 +17,9 @@ export function Header() {
   };
   return (
     <div className="header stickey">
-      <h4
-        className={`p1 ${activeLink === "home" ? "active-link" : ""}`}
-        onClick={() => handleSetActiveLink("home")}
-      >
+      <p className={`lgh4`} onClick={() => handleSetActiveLink("home")}>
         Sweet Potato Pie
-      </h4>
+      </p>
 
       <div className="header-right p1">
         <p

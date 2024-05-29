@@ -1,3 +1,9 @@
+.about-sweet-potato-area {
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+}
+
 .aboutsweet {
   width: 100%;
   height: 90vh;
@@ -21,7 +27,7 @@
   width: 50%;
 }
 
-.aboutsweet-left h3 {
+.aboutsweet-left .lgh3 {
   text-align: left;
   padding-left: 15%;
   padding-right: 15%;

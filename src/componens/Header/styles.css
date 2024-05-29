@@ -1,4 +1,6 @@
 .header {
+  width: 100%;
+  height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -6,12 +8,16 @@
   color: #431a0e;
   top: 0;
   left: 0;
-  font-weight: 400;
+  right: 0;
 }
 
-.header h4 {
+.header .lgh4 {
   text-align: center;
   cursor: pointer;
+  padding: 0;
+  margin: 0;
+
+  padding-top: 28px;
 }
 
 .header-right {
@@ -22,6 +28,8 @@
 .header-right p {
   text-align: center;
   cursor: pointer;
+  padding: 0;
+  margin: 0;
 }
 
 .header-right p:hover {

@@ -7,30 +7,30 @@ import CardTopCircleRectangle from "../../../Shared/CardTopCircleRectangle/CardT
 
 export function Whatwedo() {
   return (
-    <div>
-      <h4>What we do?</h4>
+    <div className="what-we-do-area">
+      <p className="lgh4">What we do?</p>
       <div className="whatwedo">
         <div className="whatwedo-left">
           <div className="css-style-sample">
             <CardTopCircleRectangle />
             <div className="css-style-main">
               <div className="css-main-textarea">
-                <p className="p4">&lt;style&gt;</p>
-                <p className="p4">
+                <p className="p5">&lt;style&gt;</p>
+                <p className="p5">
                   <span className="red-color"> .breadcumbs </span>
                   <span className="blue-color"> {`{`}</span>
                 </p>
-                <p className="p4"> margin: 0 0 2em;</p>
-                <p className="p4 blue-color"> {`}`}</p>
-                <p className="p4">
+                <p className="p5"> margin: 0 0 2em;</p>
+                <p className="p5 blue-color"> {`}`}</p>
+                <p className="p5">
                   <span className="red-color"> .breadcrumbs__list </span>
                   <span className="blue-color"> {`{`}</span>
                 </p>
-                <p className="p4"> list-style-type: none;</p>
-                <p className="p4"> margin: 0;</p>
-                <p className="p4"> padding: 0;</p>
-                <p className="p4 blue-color"> {`}`}</p>
-                <p className="p4">
+                <p className="p5"> list-style-type: none;</p>
+                <p className="p5"> margin: 0;</p>
+                <p className="p5"> padding: 0;</p>
+                <p className="p5 blue-color"> {`}`}</p>
+                <p className="p5">
                   <span className="red-color"> .breadcrumbs__item </span>
                   <span className="blue-color"> {`{`}</span>
                 </p>
@@ -41,9 +41,9 @@ export function Whatwedo() {
 
         <div className="whatwedo-second-right">
           <div className="second-right-textarea">
-            <h4>UI/UX Design</h4>
-            <h4>Product Design</h4>
-            <h4>Engineering</h4>
+            <p className="lgh4">UI/UX Design</p>
+            <p className="lgh4">Product Design</p>
+            <p className="lgh4 lgh4-last-bottom-margin">Engineering</p>
           </div>
 
           <div className="seeall">

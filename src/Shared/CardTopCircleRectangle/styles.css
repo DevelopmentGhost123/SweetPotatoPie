@@ -1,6 +1,6 @@
 .card-top-circle-rectangle {
   width: 100%;
-  aspect-ratio: 15;
+  aspect-ratio: 20;
   background-color: #ffffff;
   border: 1px solid #4e1a0e;
   display: flex;
@@ -20,7 +20,7 @@
   background-color: #fceeb4;
   border-radius: 50%;
   border: 1px solid #4e1a0e;
-  margin-left: 10%;
+  margin-left: 8%;
 }
 
 .yellowrectangle-container {
@@ -33,10 +33,10 @@
 
 .yellowrectangle {
   height: 25%;
-  aspect-ratio: 3;
-  border-radius: 15%;
+  aspect-ratio: 5;
+  border-radius: 20%;
   background-color: #fceeb4;
   margin-left: 0%;
-  margin-right: 3%;
+  margin-right: 2%;
   border: 1px solid #4e1a0e;
 }

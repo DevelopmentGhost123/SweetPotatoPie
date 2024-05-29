@@ -10,7 +10,7 @@ const WorkWithUs = () => {
   return (
     <div className="work-with-us">
       <div className="work-with-us-first">
-        <h4>Work with us</h4>
+        <p className="lgh4">Work with us</p>
         <div className="get-started">
           <p className="p1">Get started</p>
           <div className="round-rectangle">
@@ -37,7 +37,7 @@ const WorkWithUs = () => {
             <p className="p1">Say hi</p>
             <div className="say-hi">
               <img src={Sendlight} alt="Sendlight" />
-              <p className="p2">hi@sweetpotatopieventures.com</p>
+              <p className="p3">hi@sweetpotatopieventures.com</p>
             </div>
           </div>
         </div>

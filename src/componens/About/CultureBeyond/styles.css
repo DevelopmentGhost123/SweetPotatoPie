@@ -102,8 +102,8 @@
 }
 
 .curve-arrow {
-  width: 14%;
-  position: absolute;
-  margin-top: 2%;
-  padding-right: 3%;
+  width: 30%;
+  position: relative;
+  margin-top: -20%;
+  padding-right: 4%;
 }

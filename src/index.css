@@ -16,51 +16,76 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  width: 100%;
+  height: auto;
 }
 
-#root {
-  padding: 5%;
-}
-
-h1 {
+.lgh1 {
   font-size: 84px;
   line-height: 84px;
+  font-weight: 400;
+  font-style: normal;
 }
 
-h2 {
+.lgh2 {
   font-size: 64px;
-  line-height: 93.5px;
+  line-height: normal;
+  font-weight: 400;
+  font-style: normal;
 }
 
-h3 {
+.lgh3 {
   font-size: 48px;
   line-height: 64px;
+  font-weight: 400;
+  font-style: normal;
 }
 
-h4 {
+.lgh4 {
   font-size: 34px;
   line-height: 40px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lgh5 {
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 400;
 }
 
 .p1 {
   font-size: 20px;
   line-height: 28px;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .p2 {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .p3 {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .p4 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.p5 {
   font-size: 20px;
-  line-height: 29.22px;
-  color: #ffffff;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 400;
+  color: #fff;
 }

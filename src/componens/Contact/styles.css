@@ -1,0 +1,172 @@
+.contact-us {
+  width: 100%;
+  height: auto;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us-area {
+  width: 90%;
+}
+
+.contact-us-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-us-top h4 {
+  margin-bottom: -31%;
+}
+
+.contact-us-top-picturearea {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact-us-top-picturearea .ellipse {
+  width: 50%;
+  margin-right: -54%;
+}
+
+.contact-us-top-picturearea .left-curved-arrow {
+  width: 50%;
+  margin-bottom: -22%;
+}
+
+.have-project {
+  width: 100%;
+  margin-top: 10%;
+}
+
+.have-project-underline {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.have-project-underline img {
+  width: 25%;
+  margin-right: 15%;
+}
+
+.have-project-bottom {
+  margin-bottom: 0;
+  width: 100%;
+  border: 1px solid #4e1a0e;
+}
+
+.have-project-card-bottom {
+  width: 100%;
+  background-color: #eeeaeacb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.have-project-card-bottom-first {
+  width: 90%;
+  aspect-ratio: 3.5;
+  background-color: #ffffff;
+  border: 1px solid #948d8dac;
+  border-radius: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.have-project-card-bottom-first img {
+  width: 10%;
+  margin-right: 2%;
+}
+
+.have-project-card-bottom-second {
+  width: 90%;
+  aspect-ratio: 3.5;
+  margin-bottom: 0;
+}
+
+.card-bottom-second-top {
+  width: 100%;
+  aspect-ratio: 80;
+  border: 1px solid #4a4343ac;
+  background-color: #4a4343ac;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  margin-bottom: 0;
+}
+
+.card-bottom-second-survey {
+  width: 100%;
+  aspect-ratio: 10;
+  background-color: #ffffff;
+  border: 1px solid #4a4343ac;
+}
+
+.card-bottom-second-survey h4 {
+  margin-left: 5%;
+}
+
+.card-bottom-switch-second-acount {
+  display: flex;
+  width: 100%;
+  aspect-ratio: 10;
+  background-color: #ffffff;
+  border: 1px solid #4a4343ac;
+  justify-content: space-around;
+  align-items: center;
+  align-items: center;
+  margin: 0;
+}
+
+.card-bottom-switch-second-indicate {
+  width: 100%;
+  aspect-ratio: 10;
+  background-color: #ffffff;
+  border: 1px solid #4a4343ac;
+  margin-bottom: 3%;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+
+.card-bottom-switch-second-indicate p {
+  margin-left: 5%;
+}
+
+.have-project-card-bottom-third {
+  width: 90%;
+  aspect-ratio: 4;
+  background-color: #ffffff;
+  border: 1px solid #4a4343ac;
+  border-radius: 5%;
+}
+
+.have-project-card-bottom-third p {
+  margin-left: 5%;
+}
+
+.have-project-card-bottom-third .straight {
+  width: 50%;
+  height: 1px;
+  background-color: #4e1a0e;
+  margin-left: 5%;
+}
+
+.schedule-call {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.schedule-call p {
+  margin-right: 5%;
+}

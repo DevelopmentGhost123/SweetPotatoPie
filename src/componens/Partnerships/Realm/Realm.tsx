@@ -14,16 +14,16 @@ const Realm = () => {
         </div>
       </div>
       <div className="realm-right">
-        <p className="p2">Product Strategy & UI/UX</p>
-        <h4>Realm</h4>
-        <p className="p2">
+        <p className="p3">Product Strategy & UI/UX</p>
+        <p className="lgh4">Realm</p>
+        <p className="p3">
           Realm chose Sweet Potato Pie to revolutionize their digital footprint.
           Collaborating closely with their creative and technical teams, we took
           charge of designing, building, and refining their mobile application
           platform. This included orchestrating a recent redesign, introducing a
           fresh brand identity, and enhancing the overall user experience.
         </p>
-        <p className="p2">
+        <p className="p3">
           Focused on maximizing engagement and optimizing user retention, we
           devised a growth strategy centered on cutting-edge UX, CRO, and mobile
           development principles. Leveraging advanced technologies like React

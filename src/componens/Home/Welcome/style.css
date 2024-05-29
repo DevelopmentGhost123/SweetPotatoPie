@@ -7,7 +7,7 @@
 }
 
 .welcome_left {
-  width: 30%;
+  width: 25%;
   height: auto;
   display: flex;
   justify-content: flex-end;
@@ -16,19 +16,20 @@
 
 .welcome_left img {
   width: 60%;
-  margin-top: -15%;
+  margin-top: -30%;
 }
 
 .welcome_middle {
   text-align: center;
-  width: 50%;
+  width: 55%;
   height: auto;
   padding: 0;
   margin: 0;
 }
 
-.welcome_middle h2 {
+.welcome_middle .lgh2 {
   margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .welcome_bottom {
@@ -40,6 +41,11 @@
   display: flex;
   justify-content: space-between;
   margin-top: 0;
+}
+
+.welcome_bottom .p1 {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .underline04 {
@@ -64,7 +70,7 @@
 .welcome_right {
   width: 20%;
   height: auto;
-  margin-left: 5%;
+  margin-left: 7%;
 }
 
 .welcome_right img {

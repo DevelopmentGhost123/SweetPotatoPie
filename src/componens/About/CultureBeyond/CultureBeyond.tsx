@@ -18,8 +18,8 @@ const CultureBeyond = () => {
           <img src={BrownCheese} alt="BrownCheese" className="browncheese" />
         )}
       </div>
-      <h4>About us</h4>
-      <h1>Culture Beyond Borders</h1>
+      <p className="lgh4">About us</p>
+      <p className="lgh1">Culture Beyond Borders</p>
       <div className="beyond-picure-area">
         {BeyondPicture1 && (
           <img

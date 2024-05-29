@@ -5,3 +5,12 @@ body {
 .App {
   font-family: "Vulf Sans Deemom", sans-serif;
 }
+
+.all-project-area {
+  width: 100%;
+  height: auto;
+  border: 1px solid red;
+  background-color: #ffffff;
+  padding-left: 75px;
+  padding-right: 50px;
+}

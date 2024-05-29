@@ -7,23 +7,23 @@ import "./styles.css";
 const cardPic: string[] = [Group5, Rectangle5, Rectangle6];
 const textElements = [
   <>
-    <h4>Realm</h4>
-    <p className="p1">Your Next Level Awaits</p>
+    <p className="lgh4">Realm</p>
+    <p className="p3">Your Next Level Awaits</p>
   </>,
   <>
-    <h4>Saints</h4>
-    <p className="p1">the virtual is ones</p>
+    <p className="lgh4">Saints</p>
+    <p className="p3">the virtual is ones</p>
   </>,
   <>
-    <h4>Shop Jitana</h4>
-    <p className="p1">inspired by travel and culture</p>
+    <p className="lgh4">Shop Jitana</p>
+    <p className="p3">inspired by travel and culture</p>
   </>,
 ];
 
 const OurPartnerships = () => {
   return (
     <div className="ourpartnerships">
-      <h4>Our partnerships</h4>
+      <p className="lgh4">Our partnerships</p>
       <div className="card-area">
         {cardPic.map((src, index) => (
           <div key={index} className="card">

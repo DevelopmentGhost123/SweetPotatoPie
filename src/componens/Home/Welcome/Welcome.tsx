@@ -12,10 +12,10 @@ export function Welcome() {
       </div>
 
       <div className="welcome_middle">
-        <h2>
+        <p className="lgh2">
           Welcome to <br />
           Sweet Potato Pie
-        </h2>
+        </p>
         <div className="welcome_bottom">
           <div className="welcome_bottom_picarea">
             <div className="underline04">

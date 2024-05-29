@@ -8,9 +8,9 @@ const GTHX = () => {
   return (
     <div className="gthx">
       <div className="saints-left">
-        <p className="p2">Product Strategy & UI/UX</p>
-        <h4>GTHX</h4>
-        <p className="p2">
+        <p className="p3">Product Strategy & UI/UX</p>
+        <p className="lgh4">GTHX</p>
+        <p className="p3">
           GTHX joined forces with Sweet Potato Pie to elevate their product
           strategy and UI/UX design. Collaborating closely, we embarked on a
           journey to redefine and optimize their digital product offerings. Our
@@ -18,7 +18,7 @@ const GTHX = () => {
           platform to ensure seamless user interactions and engaging
           experiences.
         </p>
-        <p className="p2">
+        <p className="p3">
           With a laser focus on product strategy and UI/UX excellence, we
           crafted a comprehensive approach aimed at driving innovation and user
           satisfaction. From inception to implementation, our partnership
